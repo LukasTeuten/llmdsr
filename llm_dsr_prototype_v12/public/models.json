@@ -1266,11 +1266,11 @@
       "input_token_price": 8.9577,
       "output_token_price": 35.5055,
       "perf": {
-        "Intelligence": 92.8,
+        "Intelligence": 72.8,
         "Speed": 80.3,
-        "Coding quality": 90.7,
+        "Coding quality": 78.7,
         "Task adherence": 82.5,
-        "Factual reliability": 91.1
+        "Factual reliability": 81.1
       }
     },
     {
