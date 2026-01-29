@@ -1242,6 +1242,1028 @@
         "Task adherence": 78.02419346741085,
         "Factual reliability": 71.70010246595157
       }
+    },
+    {
+      "model_id": "px4hllzuv5",
+      "model_name": "Rakuten XL 128k",
+      "developer_name": "Rakuten",
+      "country_of_origin": "Japan",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "yes_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "api_availability": false,
+      "hosts": [
+        {
+          "host_name": "Tencent Cloud",
+          "host_country": "China",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 8.9577,
+      "output_token_price": 35.5055,
+      "perf": {
+        "Intelligence": 92.8,
+        "Speed": 80.3,
+        "Coding quality": 90.7,
+        "Task adherence": 82.5,
+        "Factual reliability": 91.1
+      }
+    },
+    {
+      "model_id": "pxs6460xlr",
+      "model_name": "Naver Max 32k",
+      "developer_name": "Naver",
+      "country_of_origin": "South Korea",
+      "source_type": "proprietary",
+      "output_ip": false,
+      "training_on_user_inputs": "yes_train",
+      "usage_based_pricing_available": false,
+      "subscription_available": false,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "IONOS",
+          "host_country": "Germany",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "StackIT",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 6.8921,
+      "output_token_price": 14.2996,
+      "perf": {
+        "Intelligence": 90.0,
+        "Speed": 94.2,
+        "Coding quality": 75.4,
+        "Task adherence": 82.8,
+        "Factual reliability": 79.7
+      }
+    },
+    {
+      "model_id": "px7ip7wxsa",
+      "model_name": "Databricks Lite 16k",
+      "developer_name": "Databricks",
+      "country_of_origin": "USA",
+      "source_type": "open_weight",
+      "output_ip": true,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "Hetzner",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": false,
+          "api_available": true
+        },
+        {
+          "host_name": "IONOS",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "Oracle Cloud",
+          "host_country": "USA",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": false
+        }
+      ],
+      "input_token_price": 0.845,
+      "output_token_price": 1.5791,
+      "perf": {
+        "Intelligence": 66.8,
+        "Speed": 58.9,
+        "Coding quality": 56.9,
+        "Task adherence": null,
+        "Factual reliability": 83.6
+      }
+    },
+    {
+      "model_id": "pxqvvj8a0n",
+      "model_name": "ServiceNow Max 8k",
+      "developer_name": "ServiceNow",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "output_ip": false,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "IONOS",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "StackIT",
+          "host_country": "Germany",
+          "eea_processing": false,
+          "chat_available": false,
+          "api_available": true
+        },
+        {
+          "host_name": "Hetzner",
+          "host_country": "Germany",
+          "eea_processing": false,
+          "chat_available": false,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 6.8151,
+      "output_token_price": 18.322,
+      "perf": {
+        "Intelligence": 72.0,
+        "Speed": 66.3,
+        "Coding quality": 78.8,
+        "Task adherence": 89.2,
+        "Factual reliability": 73.0
+      }
+    },
+    {
+      "model_id": "pxzll1n4ss",
+      "model_name": "Baidu Lite 16k",
+      "developer_name": "Baidu",
+      "country_of_origin": "China",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "Alibaba Cloud",
+          "host_country": "China",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 9.3863,
+      "output_token_price": 29.9973,
+      "perf": {
+        "Intelligence": 74.7,
+        "Speed": 61.3,
+        "Coding quality": 64.3,
+        "Task adherence": 69.2,
+        "Factual reliability": 72.9
+      }
+    },
+    {
+      "model_id": "pxs5865u44",
+      "model_name": "AI21 Mini 64k",
+      "developer_name": "AI21 Labs",
+      "country_of_origin": "Israel",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": false,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "Scaleway",
+          "host_country": "France",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": false
+        },
+        {
+          "host_name": "Google Cloud",
+          "host_country": "USA",
+          "eea_processing": false,
+          "chat_available": false,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 7.0844,
+      "output_token_price": 25.2037,
+      "perf": {
+        "Intelligence": 58.4,
+        "Speed": null,
+        "Coding quality": 51.6,
+        "Task adherence": 63.6,
+        "Factual reliability": 46.1
+      }
+    },
+    {
+      "model_id": "pxngn85fi5",
+      "model_name": "TII Max 128k",
+      "developer_name": "TII",
+      "country_of_origin": "UAE",
+      "source_type": "open_weight",
+      "output_ip": true,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "Tencent Cloud",
+          "host_country": "China",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "StackIT",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": false,
+          "api_available": true
+        }
+      ],
+      "input_token_price": null,
+      "output_token_price": null,
+      "perf": {
+        "Intelligence": 54.8,
+        "Speed": 52.9,
+        "Coding quality": 57.2,
+        "Task adherence": 59.7,
+        "Factual reliability": 62.0
+      }
+    },
+    {
+      "model_id": "pxr9eiiuaj",
+      "model_name": "Aleph Max 8k",
+      "developer_name": "Aleph Alpha",
+      "country_of_origin": "Germany",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "OVHcloud",
+          "host_country": "France",
+          "eea_processing": true,
+          "chat_available": false,
+          "api_available": true
+        },
+        {
+          "host_name": "Hetzner",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "Scaleway",
+          "host_country": "France",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 4.3217,
+      "output_token_price": 6.8588,
+      "perf": {
+        "Intelligence": 62.7,
+        "Speed": 58.0,
+        "Coding quality": 48.0,
+        "Task adherence": 53.7,
+        "Factual reliability": 54.0
+      }
+    },
+    {
+      "model_id": "pxkkalut6c",
+      "model_name": "Rakuten Pro 64k",
+      "developer_name": "Rakuten",
+      "country_of_origin": "Japan",
+      "source_type": "proprietary",
+      "output_ip": false,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "Azure",
+          "host_country": "USA",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "StackIT",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 7.7856,
+      "output_token_price": 24.6458,
+      "perf": {
+        "Intelligence": 78.0,
+        "Speed": 80.8,
+        "Coding quality": null,
+        "Task adherence": 87.8,
+        "Factual reliability": 86.9
+      }
+    },
+    {
+      "model_id": "px4q319uzk",
+      "model_name": "Google Pro 128k",
+      "developer_name": "Google",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "opt_out",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "Google Cloud",
+          "host_country": "USA",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "Hetzner",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 4.5502,
+      "output_token_price": 13.6196,
+      "perf": {
+        "Intelligence": 61.8,
+        "Speed": 52.9,
+        "Coding quality": 55.7,
+        "Task adherence": 68.5,
+        "Factual reliability": 56.3
+      }
+    },
+    {
+      "model_id": "px1e0b58ts",
+      "model_name": "Google Lite 64k",
+      "developer_name": "Google",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "yes_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "IONOS",
+          "host_country": "Germany",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "Oracle Cloud",
+          "host_country": "USA",
+          "eea_processing": false,
+          "chat_available": false,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 1.4018,
+      "output_token_price": 2.8951,
+      "perf": {
+        "Intelligence": 73.0,
+        "Speed": 84.7,
+        "Coding quality": 70.2,
+        "Task adherence": 73.2,
+        "Factual reliability": 63.4
+      }
+    },
+    {
+      "model_id": "pxfe8vbm1a",
+      "model_name": "xAI Max 128k",
+      "developer_name": "xAI",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "output_ip": false,
+      "training_on_user_inputs": "yes_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "Alibaba Cloud",
+          "host_country": "China",
+          "eea_processing": false,
+          "chat_available": false,
+          "api_available": true
+        },
+        {
+          "host_name": "OVHcloud",
+          "host_country": "France",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "Oracle Cloud",
+          "host_country": "USA",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 5.858,
+      "output_token_price": 17.194,
+      "perf": {
+        "Intelligence": 61.0,
+        "Speed": 53.9,
+        "Coding quality": 62.4,
+        "Task adherence": 59.5,
+        "Factual reliability": 60.5
+      }
+    },
+    {
+      "model_id": "px1a8n90ma",
+      "model_name": "SAP Mini 64k",
+      "developer_name": "SAP",
+      "country_of_origin": "Germany",
+      "source_type": "proprietary",
+      "output_ip": false,
+      "training_on_user_inputs": "yes_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "StackIT",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 2.9725,
+      "output_token_price": 10.8766,
+      "perf": {
+        "Intelligence": 88.1,
+        "Speed": 69.9,
+        "Coding quality": 85.0,
+        "Task adherence": 78.0,
+        "Factual reliability": null
+      }
+    },
+    {
+      "model_id": "pxafla52l7",
+      "model_name": "AI21 Pro 64k",
+      "developer_name": "AI21 Labs",
+      "country_of_origin": "Israel",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "yes_train",
+      "usage_based_pricing_available": false,
+      "subscription_available": false,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "Hetzner",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "Scaleway",
+          "host_country": "France",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "StackIT",
+          "host_country": "Germany",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 9.6508,
+      "output_token_price": 36.7172,
+      "perf": {
+        "Intelligence": 57.3,
+        "Speed": 62.7,
+        "Coding quality": 63.2,
+        "Task adherence": 70.0,
+        "Factual reliability": 52.0
+      }
+    },
+    {
+      "model_id": "pxkzmk3m9d",
+      "model_name": "Google Mini 32k",
+      "developer_name": "Google",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "OVHcloud",
+          "host_country": "France",
+          "eea_processing": false,
+          "chat_available": false,
+          "api_available": true
+        },
+        {
+          "host_name": "Scaleway",
+          "host_country": "France",
+          "eea_processing": true,
+          "chat_available": false,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 1.491,
+      "output_token_price": 5.6781,
+      "perf": {
+        "Intelligence": 84.7,
+        "Speed": 86.4,
+        "Coding quality": 76.7,
+        "Task adherence": 69.0,
+        "Factual reliability": 71.1
+      }
+    },
+    {
+      "model_id": "pxxktbxmyg",
+      "model_name": "Hugging Mini 64k",
+      "developer_name": "Hugging Face",
+      "country_of_origin": "USA",
+      "source_type": "open_weight",
+      "output_ip": true,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "Alibaba Cloud",
+          "host_country": "China",
+          "eea_processing": false,
+          "chat_available": false,
+          "api_available": false
+        },
+        {
+          "host_name": "Azure",
+          "host_country": "USA",
+          "eea_processing": false,
+          "chat_available": false,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 0.0872,
+      "output_token_price": 0.1307,
+      "perf": {
+        "Intelligence": 61.6,
+        "Speed": 79.5,
+        "Coding quality": 68.2,
+        "Task adherence": 68.2,
+        "Factual reliability": 77.2
+      }
+    },
+    {
+      "model_id": "pxcp1rr351",
+      "model_name": "DeepL Base 16k",
+      "developer_name": "DeepL",
+      "country_of_origin": "Germany",
+      "source_type": "proprietary",
+      "output_ip": false,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": false,
+      "subscription_available": true,
+      "api_availability": false,
+      "hosts": [
+        {
+          "host_name": "Alibaba Cloud",
+          "host_country": "China",
+          "eea_processing": false,
+          "chat_available": false,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 8.0353,
+      "output_token_price": 28.1524,
+      "perf": {
+        "Intelligence": 71.2,
+        "Speed": 80.7,
+        "Coding quality": 86.9,
+        "Task adherence": 77.3,
+        "Factual reliability": 70.3
+      }
+    },
+    {
+      "model_id": "pxc6cqrb8d",
+      "model_name": "Baidu Lite 64k",
+      "developer_name": "Baidu",
+      "country_of_origin": "China",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "opt_out",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "StackIT",
+          "host_country": "Germany",
+          "eea_processing": false,
+          "chat_available": false,
+          "api_available": true
+        },
+        {
+          "host_name": "Azure",
+          "host_country": "USA",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "Scaleway",
+          "host_country": "France",
+          "eea_processing": false,
+          "chat_available": false,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 4.0926,
+      "output_token_price": 12.8369,
+      "perf": {
+        "Intelligence": 57.0,
+        "Speed": 64.2,
+        "Coding quality": 62.3,
+        "Task adherence": 51.2,
+        "Factual reliability": 56.0
+      }
+    },
+    {
+      "model_id": "pxkorqjv7e",
+      "model_name": "TII Pro 32k",
+      "developer_name": "TII",
+      "country_of_origin": "UAE",
+      "source_type": "open_weight",
+      "output_ip": true,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": false,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "IONOS",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 0.525,
+      "output_token_price": null,
+      "perf": {
+        "Intelligence": null,
+        "Speed": 66.7,
+        "Coding quality": 71.0,
+        "Task adherence": 65.4,
+        "Factual reliability": 72.3
+      }
+    },
+    {
+      "model_id": "pxalx4vpnr",
+      "model_name": "Mistral Pro 8k",
+      "developer_name": "Mistral AI",
+      "country_of_origin": "France",
+      "source_type": "open_weight",
+      "output_ip": true,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": false,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [],
+      "input_token_price": 1.4114,
+      "output_token_price": 1.6632,
+      "perf": {
+        "Intelligence": 74.4,
+        "Speed": 76.4,
+        "Coding quality": 77.0,
+        "Task adherence": 79.5,
+        "Factual reliability": 75.8
+      }
+    },
+    {
+      "model_id": "pxsxub2ens",
+      "model_name": "Baidu Mini 32k",
+      "developer_name": "Baidu",
+      "country_of_origin": "China",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "opt_out",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "Google Cloud",
+          "host_country": "USA",
+          "eea_processing": false,
+          "chat_available": false,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 7.4773,
+      "output_token_price": 15.7113,
+      "perf": {
+        "Intelligence": 81.7,
+        "Speed": 93.8,
+        "Coding quality": 89.2,
+        "Task adherence": null,
+        "Factual reliability": 83.2
+      }
+    },
+    {
+      "model_id": "pxqwl2h3yk",
+      "model_name": "AI21 Base 8k",
+      "developer_name": "AI21 Labs",
+      "country_of_origin": "Israel",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "yes_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": false,
+      "hosts": [
+        {
+          "host_name": "AWS",
+          "host_country": "USA",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "Azure",
+          "host_country": "USA",
+          "eea_processing": false,
+          "chat_available": false,
+          "api_available": true
+        },
+        {
+          "host_name": "Hetzner",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": false,
+          "api_available": false
+        }
+      ],
+      "input_token_price": 2.6932,
+      "output_token_price": 6.0667,
+      "perf": {
+        "Intelligence": 66.3,
+        "Speed": null,
+        "Coding quality": 63.8,
+        "Task adherence": 75.9,
+        "Factual reliability": 77.6
+      }
+    },
+    {
+      "model_id": "pxcocas7cm",
+      "model_name": "01.AI Lite 128k",
+      "developer_name": "01.AI",
+      "country_of_origin": "China",
+      "source_type": "open_weight",
+      "output_ip": true,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": false,
+      "subscription_available": false,
+      "api_availability": true,
+      "hosts": [],
+      "input_token_price": 0.8208,
+      "output_token_price": 1.8576,
+      "perf": {
+        "Intelligence": 58.8,
+        "Speed": 45.4,
+        "Coding quality": 64.5,
+        "Task adherence": 54.6,
+        "Factual reliability": 57.0
+      }
+    },
+    {
+      "model_id": "pxi5uuct8q",
+      "model_name": "AI21 Base 128k",
+      "developer_name": "AI21 Labs",
+      "country_of_origin": "Israel",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "yes_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "Oracle Cloud",
+          "host_country": "USA",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 3.1306,
+      "output_token_price": 11.5155,
+      "perf": {
+        "Intelligence": 59.8,
+        "Speed": 55.5,
+        "Coding quality": 74.0,
+        "Task adherence": 55.4,
+        "Factual reliability": 64.4
+      }
+    },
+    {
+      "model_id": "pxav1s1fxk",
+      "model_name": "IBM Lite 128k",
+      "developer_name": "IBM",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "opt_out",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "IONOS",
+          "host_country": "Germany",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 6.0268,
+      "output_token_price": 17.0743,
+      "perf": {
+        "Intelligence": 85.3,
+        "Speed": 81.0,
+        "Coding quality": 85.1,
+        "Task adherence": 86.1,
+        "Factual reliability": 90.4
+      }
+    },
+    {
+      "model_id": "pxx6b8rgbl",
+      "model_name": "SAP Lite 16k",
+      "developer_name": "SAP",
+      "country_of_origin": "Germany",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "Azure",
+          "host_country": "USA",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": false
+        }
+      ],
+      "input_token_price": 9.1275,
+      "output_token_price": 34.2139,
+      "perf": {
+        "Intelligence": 86.2,
+        "Speed": 80.2,
+        "Coding quality": 72.4,
+        "Task adherence": 73.1,
+        "Factual reliability": 65.6
+      }
+    },
+    {
+      "model_id": "pxh4uhnlos",
+      "model_name": "IBM Base 64k",
+      "developer_name": "IBM",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "opt_out",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "Tencent Cloud",
+          "host_country": "China",
+          "eea_processing": false,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 6.577,
+      "output_token_price": 24.1709,
+      "perf": {
+        "Intelligence": 85.1,
+        "Speed": 79.7,
+        "Coding quality": 84.5,
+        "Task adherence": 80.2,
+        "Factual reliability": 80.1
+      }
+    },
+    {
+      "model_id": "px2sgfgy6a",
+      "model_name": "Aleph Alpha EU Secure 64k",
+      "developer_name": "Aleph Alpha",
+      "country_of_origin": "Germany",
+      "source_type": "proprietary",
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "IONOS",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "Hetzner",
+          "host_country": "Germany",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 2.5,
+      "output_token_price": 7.5,
+      "perf": {
+        "Intelligence": 82,
+        "Speed": 70,
+        "Coding quality": 78,
+        "Task adherence": 84,
+        "Factual reliability": 80
+      }
+    },
+    {
+      "model_id": "px3zfdhos1",
+      "model_name": "Mistral Open EU 32k",
+      "developer_name": "Mistral AI",
+      "country_of_origin": "France",
+      "source_type": "open_weight",
+      "output_ip": true,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "api_availability": true,
+      "hosts": [
+        {
+          "host_name": "OVHcloud",
+          "host_country": "France",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        },
+        {
+          "host_name": "Scaleway",
+          "host_country": "France",
+          "eea_processing": true,
+          "chat_available": true,
+          "api_available": true
+        }
+      ],
+      "input_token_price": 2.5,
+      "output_token_price": 7.5,
+      "perf": {
+        "Intelligence": 82,
+        "Speed": 70,
+        "Coding quality": 78,
+        "Task adherence": 84,
+        "Factual reliability": 80
+      }
     }
   ]
 }
