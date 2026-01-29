@@ -1,0 +1,1247 @@
+{
+  "models": [
+    {
+      "model_id": "m001",
+      "model_name": "Llama 3 8B",
+      "developer_name": "Meta",
+      "country_of_origin": "USA",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "AWS Bedrock",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Azure AI",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Self-hosted",
+          "eea_processing": true,
+          "chat_available": false
+        },
+        {
+          "provider": "Open Telekom Cloud",
+          "eea_processing": true,
+          "chat_available": false
+        },
+        {
+          "provider": "Hugging Face Inference",
+          "eea_processing": true,
+          "chat_available": false
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 0.25,
+      "output_token_price": 0.45,
+      "perf": {
+        "Intelligence": 62.0,
+        "Speed": 80.0,
+        "Coding quality": 55.0,
+        "Task adherence": 60.0,
+        "Factual reliability": 58.0
+      }
+    },
+    {
+      "model_id": "m002",
+      "model_name": "Mistral Small",
+      "developer_name": "Mistral AI",
+      "country_of_origin": "France",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "Mistral Platform",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Azure AI",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Self-hosted",
+          "eea_processing": true,
+          "chat_available": false
+        },
+        {
+          "provider": "AWS Bedrock",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Open Telekom Cloud",
+          "eea_processing": true,
+          "chat_available": false
+        },
+        {
+          "provider": "Hugging Face Inference",
+          "eea_processing": true,
+          "chat_available": false
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "opt_out",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "input_token_price": 0.35,
+      "output_token_price": 1.05,
+      "perf": {
+        "Intelligence": 68.0,
+        "Speed": 75.0,
+        "Coding quality": 62.0,
+        "Task adherence": 70.0,
+        "Factual reliability": 63.0
+      }
+    },
+    {
+      "model_id": "m003",
+      "model_name": "GPT-4o",
+      "developer_name": "OpenAI",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "OpenAI",
+          "eea_processing": false,
+          "chat_available": true
+        },
+        {
+          "provider": "Azure OpenAI",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Azure AI",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "IONOS AI",
+          "eea_processing": true,
+          "chat_available": false
+        },
+        {
+          "provider": "Telekom AI",
+          "eea_processing": true,
+          "chat_available": false
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "opt_out",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "input_token_price": 5.0,
+      "output_token_price": 15.0,
+      "perf": {
+        "Intelligence": 88.0,
+        "Speed": 70.0,
+        "Coding quality": 86.0,
+        "Task adherence": 85.0,
+        "Factual reliability": 80.0
+      }
+    },
+    {
+      "model_id": "m004",
+      "model_name": "Gemini 1.5 Pro",
+      "developer_name": "Google",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "Google AI Studio",
+          "eea_processing": false,
+          "chat_available": true
+        },
+        {
+          "provider": "Vertex AI",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Azure AI",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "IONOS AI",
+          "eea_processing": true,
+          "chat_available": false
+        },
+        {
+          "provider": "Telekom AI",
+          "eea_processing": true,
+          "chat_available": false
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "may_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "input_token_price": 3.5,
+      "output_token_price": 10.5,
+      "perf": {
+        "Intelligence": 86.0,
+        "Speed": 78.0,
+        "Coding quality": 80.0,
+        "Task adherence": 82.0,
+        "Factual reliability": 76.0
+      }
+    },
+    {
+      "model_id": "m005",
+      "model_name": "Claude 3.5",
+      "developer_name": "Anthropic",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "Anthropic",
+          "eea_processing": false,
+          "chat_available": true
+        },
+        {
+          "provider": "AWS Bedrock",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Azure AI",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "IONOS AI",
+          "eea_processing": true,
+          "chat_available": false
+        },
+        {
+          "provider": "Telekom AI",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "input_token_price": 3.0,
+      "output_token_price": 15.0,
+      "perf": {
+        "Intelligence": 87.0,
+        "Speed": 72.0,
+        "Coding quality": 84.0,
+        "Task adherence": 83.0,
+        "Factual reliability": 78.0
+      }
+    },
+    {
+      "model_id": "m006",
+      "model_name": "DeepSeek",
+      "developer_name": "DeepSeek",
+      "country_of_origin": "China",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "DeepSeek",
+          "eea_processing": false,
+          "chat_available": true
+        },
+        {
+          "provider": "Azure AI",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Self-hosted",
+          "eea_processing": true,
+          "chat_available": false
+        },
+        {
+          "provider": "AWS Bedrock",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Open Telekom Cloud",
+          "eea_processing": true,
+          "chat_available": false
+        },
+        {
+          "provider": "Hugging Face Inference",
+          "eea_processing": false,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "may_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 0.2,
+      "output_token_price": 0.8,
+      "perf": {
+        "Intelligence": 74.0,
+        "Speed": 82.0,
+        "Coding quality": 78.0,
+        "Task adherence": 72.0,
+        "Factual reliability": 60.0
+      }
+    },
+    {
+      "model_id": "m007",
+      "model_name": "VendorX Model",
+      "developer_name": "VendorX",
+      "country_of_origin": "Germany",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "VendorX Cloud",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "IONOS AI",
+          "eea_processing": true,
+          "chat_available": false
+        },
+        {
+          "provider": "Telekom AI",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": null,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": null,
+      "subscription_available": true,
+      "input_token_price": null,
+      "output_token_price": null,
+      "perf": {
+        "Intelligence": 70.0,
+        "Speed": 65.0,
+        "Coding quality": 60.0,
+        "Task adherence": null,
+        "Factual reliability": null
+      }
+    },
+    {
+      "model_id": "m008",
+      "model_name": "Qwen2 7B",
+      "developer_name": "Alibaba",
+      "country_of_origin": "China",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "Self-hosted",
+          "eea_processing": true,
+          "chat_available": false
+        },
+        {
+          "provider": "Azure AI",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Hugging Face Inference",
+          "eea_processing": false,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 0.18,
+      "output_token_price": 0.55,
+      "perf": {
+        "Intelligence": 66.0,
+        "Speed": 83.0,
+        "Coding quality": 58.0,
+        "Task adherence": 61.0,
+        "Factual reliability": 57.0
+      }
+    },
+    {
+      "model_id": "m009",
+      "model_name": "Phi-3 Mini",
+      "developer_name": "Microsoft",
+      "country_of_origin": "USA",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "Self-hosted",
+          "eea_processing": true,
+          "chat_available": false
+        },
+        {
+          "provider": "Azure AI",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "AWS Bedrock",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 0.22,
+      "output_token_price": 0.4,
+      "perf": {
+        "Intelligence": 64.0,
+        "Speed": 88.0,
+        "Coding quality": 60.0,
+        "Task adherence": 64.0,
+        "Factual reliability": 59.0
+      }
+    },
+    {
+      "model_id": "m010",
+      "model_name": "VendorY Enterprise",
+      "developer_name": "VendorY",
+      "country_of_origin": "UK",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "VendorY Cloud",
+          "eea_processing": false,
+          "chat_available": true
+        },
+        {
+          "provider": "VendorY EU Cloud",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Azure AI",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "opt_out",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "input_token_price": 2.2,
+      "output_token_price": 6.8,
+      "perf": {
+        "Intelligence": 77.0,
+        "Speed": 74.0,
+        "Coding quality": 72.0,
+        "Task adherence": 75.0,
+        "Factual reliability": 70.0
+      }
+    },
+    {
+      "model_id": "m011",
+      "model_name": "VendorZ API Only",
+      "developer_name": "VendorZ",
+      "country_of_origin": "Germany",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "VendorZ Cloud",
+          "eea_processing": true,
+          "chat_available": false
+        },
+        {
+          "provider": "IONOS AI",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": null,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "input_token_price": 1.4,
+      "output_token_price": 4.2,
+      "perf": {
+        "Intelligence": 73.0,
+        "Speed": 71.0,
+        "Coding quality": 65.0,
+        "Task adherence": 68.0,
+        "Factual reliability": 66.0
+      }
+    },
+    {
+      "model_id": "m012",
+      "model_name": "SparsePerf Model",
+      "developer_name": "SparseCorp",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "SparseCorp Cloud",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "AWS Bedrock",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "may_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 0.9,
+      "output_token_price": 2.8,
+      "perf": {
+        "Intelligence": 71.0,
+        "Speed": null,
+        "Coding quality": 67.0,
+        "Task adherence": null,
+        "Factual reliability": 63.0
+      }
+    },
+    {
+      "model_id": "m013",
+      "model_name": "LocalOnly 13B",
+      "developer_name": "Community",
+      "country_of_origin": "Global",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "Self-hosted",
+          "eea_processing": true,
+          "chat_available": false
+        }
+      ],
+      "api_availability": false,
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": false,
+      "subscription_available": false,
+      "input_token_price": 0.3,
+      "output_token_price": 0.6,
+      "perf": {
+        "Intelligence": 60.0,
+        "Speed": 55.0,
+        "Coding quality": 50.0,
+        "Task adherence": 58.0,
+        "Factual reliability": 52.0
+      }
+    },
+    {
+      "model_id": "m014",
+      "model_name": "gpt-4.1",
+      "developer_name": "OpenAI",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "OpenAI (direct)",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "IONOS",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Databricks",
+          "eea_processing": null,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "may_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "input_token_price": 1.8021,
+      "output_token_price": 6.799,
+      "perf": {
+        "Intelligence": 88.51910995378078,
+        "Speed": 81.64286064755208,
+        "Coding quality": 93.34135064478895,
+        "Task adherence": 94.70947819150338,
+        "Factual reliability": 83.15016527659238
+      }
+    },
+    {
+      "model_id": "m015",
+      "model_name": "gpt-4o-mini",
+      "developer_name": "OpenAI",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "OpenAI (direct)",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Google Vertex AI",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 2.2231,
+      "output_token_price": 5.4121,
+      "perf": {
+        "Intelligence": null,
+        "Speed": 80.90268380142896,
+        "Coding quality": 87.27286002340398,
+        "Task adherence": 79.73148403606362,
+        "Factual reliability": 84.85935344082822
+      }
+    },
+    {
+      "model_id": "m016",
+      "model_name": "claude-3.5-sonnet",
+      "developer_name": "Anthropic",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "Anthropic (direct)",
+          "eea_processing": null,
+          "chat_available": true
+        },
+        {
+          "provider": "GCP (global)",
+          "eea_processing": false,
+          "chat_available": true
+        },
+        {
+          "provider": "Google Vertex AI",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Open Telekom Cloud",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "input_token_price": 2.4797,
+      "output_token_price": 5.8159,
+      "perf": {
+        "Intelligence": 85.01639084369562,
+        "Speed": 85.52281199210668,
+        "Coding quality": 92.14221336688732,
+        "Task adherence": 81.47669516807696,
+        "Factual reliability": null
+      }
+    },
+    {
+      "model_id": "m017",
+      "model_name": "claude-3-haiku",
+      "developer_name": "Anthropic",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "Anthropic (direct)",
+          "eea_processing": null,
+          "chat_available": true
+        },
+        {
+          "provider": "AWS Bedrock",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "GCP (global)",
+          "eea_processing": false,
+          "chat_available": true
+        },
+        {
+          "provider": "Open Telekom Cloud",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "AWS Bedrock (console chat)",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "may_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "input_token_price": 2.4076,
+      "output_token_price": 5.5589,
+      "perf": {
+        "Intelligence": 77.94598003852434,
+        "Speed": 65.36677490326723,
+        "Coding quality": null,
+        "Task adherence": null,
+        "Factual reliability": 63.38351333175929
+      }
+    },
+    {
+      "model_id": "m018",
+      "model_name": "gemini-2.0-flash",
+      "developer_name": "Google",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "Google (direct)",
+          "eea_processing": null,
+          "chat_available": true
+        },
+        {
+          "provider": "IONOS",
+          "eea_processing": true,
+          "chat_available": null
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "may_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 2.8932,
+      "output_token_price": 5.5866,
+      "perf": {
+        "Intelligence": 74.17712942134723,
+        "Speed": 95.40788481285797,
+        "Coding quality": 90.95018008073336,
+        "Task adherence": 78.7876585418719,
+        "Factual reliability": 79.70832998535676
+      }
+    },
+    {
+      "model_id": "m019",
+      "model_name": "gemini-2.0-pro",
+      "developer_name": "Google",
+      "country_of_origin": "USA",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "Google (direct)",
+          "eea_processing": false,
+          "chat_available": true
+        },
+        {
+          "provider": "GCP (global)",
+          "eea_processing": false,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "may_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 1.7542,
+      "output_token_price": 6.0145,
+      "perf": {
+        "Intelligence": 88.68945834506317,
+        "Speed": 79.5015886554271,
+        "Coding quality": 87.86842555802542,
+        "Task adherence": 79.7519432191019,
+        "Factual reliability": 86.64267830191126
+      }
+    },
+    {
+      "model_id": "m020",
+      "model_name": "llama-3.1-70b-instruct",
+      "developer_name": "Meta",
+      "country_of_origin": "USA",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "Databricks",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Hugging Face Inference",
+          "eea_processing": false,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": null,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 1.3414,
+      "output_token_price": 5.5867,
+      "perf": {
+        "Intelligence": 76.87704897910338,
+        "Speed": 75.69423467619447,
+        "Coding quality": 74.86541202133743,
+        "Task adherence": 68.44099644321122,
+        "Factual reliability": 83.60667359784392
+      }
+    },
+    {
+      "model_id": "m021",
+      "model_name": "llama-3.1-405b-instruct",
+      "developer_name": "Meta",
+      "country_of_origin": "USA",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "Hugging Face Spaces",
+          "eea_processing": null,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": null,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 2.135,
+      "output_token_price": 1.9705,
+      "perf": {
+        "Intelligence": 90.75129814746768,
+        "Speed": 74.55326113547326,
+        "Coding quality": 90.55222761396192,
+        "Task adherence": 89.55507301963871,
+        "Factual reliability": 98.59918824979162
+      }
+    },
+    {
+      "model_id": "m022",
+      "model_name": "mistral-large",
+      "developer_name": "Mistral",
+      "country_of_origin": "France",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "Mistral (direct)",
+          "eea_processing": null,
+          "chat_available": true
+        },
+        {
+          "provider": "IONOS",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "input_token_price": 1.9435,
+      "output_token_price": 8.5257,
+      "perf": {
+        "Intelligence": 81.81882805233089,
+        "Speed": 93.98338654279605,
+        "Coding quality": 82.26485695836988,
+        "Task adherence": 87.29938761835872,
+        "Factual reliability": null
+      }
+    },
+    {
+      "model_id": "m023",
+      "model_name": "mistral-small",
+      "developer_name": "Mistral",
+      "country_of_origin": "France",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "Hugging Face Inference",
+          "eea_processing": false,
+          "chat_available": true
+        },
+        {
+          "provider": "GroqCloud",
+          "eea_processing": null,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": null,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": null,
+      "output_token_price": null,
+      "perf": {
+        "Intelligence": 79.90068290968257,
+        "Speed": 76.64943955719798,
+        "Coding quality": 81.16994765667708,
+        "Task adherence": 69.4359271415116,
+        "Factual reliability": 84.81381090442416
+      }
+    },
+    {
+      "model_id": "m024",
+      "model_name": "mixtral-8x22b",
+      "developer_name": "Mistral",
+      "country_of_origin": "France",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "Databricks",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "GCP (global)",
+          "eea_processing": false,
+          "chat_available": true
+        }
+      ],
+      "api_availability": null,
+      "output_ip": null,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": null,
+      "subscription_available": false,
+      "input_token_price": 1.0838,
+      "output_token_price": 4.2096,
+      "perf": {
+        "Intelligence": 82.9525133851587,
+        "Speed": 85.94536746818412,
+        "Coding quality": 91.28072694004094,
+        "Task adherence": 79.05925803320216,
+        "Factual reliability": 93.41080373811279
+      }
+    },
+    {
+      "model_id": "m025",
+      "model_name": "deepseek-v3",
+      "developer_name": "DeepSeek",
+      "country_of_origin": "China",
+      "source_type": "open_weight",
+      "hosts": [],
+      "api_availability": false,
+      "output_ip": null,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": null,
+      "subscription_available": false,
+      "input_token_price": 1.1592,
+      "output_token_price": 3.9173,
+      "perf": {
+        "Intelligence": 89.93121639072326,
+        "Speed": 89.80597047014547,
+        "Coding quality": 93.52063008030963,
+        "Task adherence": 69.1456812651847,
+        "Factual reliability": 83.21216811797025
+      }
+    },
+    {
+      "model_id": "m026",
+      "model_name": "deepseek-r1",
+      "developer_name": "DeepSeek",
+      "country_of_origin": "China",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "Azure AI Foundry",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Google Vertex AI",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": null,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 3.1937,
+      "output_token_price": 5.9095,
+      "perf": {
+        "Intelligence": 86.33520600097421,
+        "Speed": null,
+        "Coding quality": 96.9841027189829,
+        "Task adherence": 92.38502534167448,
+        "Factual reliability": 93.44098780642003
+      }
+    },
+    {
+      "model_id": "m027",
+      "model_name": "qwen2.5-72b-instruct",
+      "developer_name": "Alibaba",
+      "country_of_origin": "China",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "GroqCloud",
+          "eea_processing": null,
+          "chat_available": true
+        },
+        {
+          "provider": "GCP (global)",
+          "eea_processing": false,
+          "chat_available": true
+        },
+        {
+          "provider": "Hugging Face Spaces",
+          "eea_processing": null,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": null,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 2.1235,
+      "output_token_price": 4.2088,
+      "perf": {
+        "Intelligence": 81.1041698222236,
+        "Speed": 78.20045100596569,
+        "Coding quality": 82.94864362948208,
+        "Task adherence": 77.00459857407604,
+        "Factual reliability": 79.84518821515893
+      }
+    },
+    {
+      "model_id": "m028",
+      "model_name": "baidu-ernie-4.0",
+      "developer_name": "Baidu",
+      "country_of_origin": "China",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "Baidu (direct)",
+          "eea_processing": null,
+          "chat_available": true
+        },
+        {
+          "provider": "AWS Bedrock",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "Open Telekom Cloud",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "GCP (global)",
+          "eea_processing": false,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 2.5335,
+      "output_token_price": 6.9601,
+      "perf": {
+        "Intelligence": 81.96287844969245,
+        "Speed": 72.11294227658648,
+        "Coding quality": 88.03180979623744,
+        "Task adherence": 83.94898676444015,
+        "Factual reliability": 98.29663612254296
+      }
+    },
+    {
+      "model_id": "m029",
+      "model_name": "falcon-180b",
+      "developer_name": "TII (Falcon)",
+      "country_of_origin": "UAE",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "IONOS",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": null,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 3.0271,
+      "output_token_price": 4.4679,
+      "perf": {
+        "Intelligence": null,
+        "Speed": 73.41181105491984,
+        "Coding quality": 70.41408830164123,
+        "Task adherence": 86.57987741690886,
+        "Factual reliability": 82.51652094481314
+      }
+    },
+    {
+      "model_id": "m030",
+      "model_name": "command-r-plus",
+      "developer_name": "Cohere",
+      "country_of_origin": "Canada",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "Cohere (direct)",
+          "eea_processing": false,
+          "chat_available": true
+        },
+        {
+          "provider": "IONOS",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "GCP (global)",
+          "eea_processing": false,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "no_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": false,
+      "input_token_price": 2.1177,
+      "output_token_price": 7.4611,
+      "perf": {
+        "Intelligence": 72.21583434836924,
+        "Speed": 96.67201203311713,
+        "Coding quality": 85.27634695857378,
+        "Task adherence": 100.0,
+        "Factual reliability": 77.65118098896299
+      }
+    },
+    {
+      "model_id": "m031",
+      "model_name": "command-r",
+      "developer_name": "Cohere",
+      "country_of_origin": "Canada",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "Cohere (direct)",
+          "eea_processing": false,
+          "chat_available": true
+        },
+        {
+          "provider": "GCP (global)",
+          "eea_processing": false,
+          "chat_available": null
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "may_train",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "input_token_price": 3.0395,
+      "output_token_price": 7.6731,
+      "perf": {
+        "Intelligence": 73.35895570342868,
+        "Speed": 71.5090359470956,
+        "Coding quality": 72.56608121224919,
+        "Task adherence": 78.3457322339033,
+        "Factual reliability": 78.56176295040092
+      }
+    },
+    {
+      "model_id": "m032",
+      "model_name": "aleph-alpha-luminous",
+      "developer_name": "Aleph Alpha",
+      "country_of_origin": "Germany",
+      "source_type": "proprietary",
+      "hosts": [
+        {
+          "provider": "Aleph Alpha (direct)",
+          "eea_processing": null,
+          "chat_available": true
+        },
+        {
+          "provider": "Databricks",
+          "eea_processing": true,
+          "chat_available": true
+        },
+        {
+          "provider": "GCP (global)",
+          "eea_processing": false,
+          "chat_available": null
+        },
+        {
+          "provider": "IONOS",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": true,
+      "training_on_user_inputs": "opt_out",
+      "usage_based_pricing_available": true,
+      "subscription_available": true,
+      "input_token_price": 2.4282,
+      "output_token_price": 4.9519,
+      "perf": {
+        "Intelligence": 68.72930416376407,
+        "Speed": 80.38259415868055,
+        "Coding quality": 69.0329372668921,
+        "Task adherence": null,
+        "Factual reliability": 88.30255627908404
+      }
+    },
+    {
+      "model_id": "m033",
+      "model_name": "stablelm-2-12b",
+      "developer_name": "Stability AI",
+      "country_of_origin": "UK",
+      "source_type": "open_weight",
+      "hosts": [
+        {
+          "provider": "Hugging Face Inference",
+          "eea_processing": null,
+          "chat_available": null
+        },
+        {
+          "provider": "AWS Bedrock",
+          "eea_processing": true,
+          "chat_available": true
+        }
+      ],
+      "api_availability": true,
+      "output_ip": null,
+      "training_on_user_inputs": null,
+      "usage_based_pricing_available": null,
+      "subscription_available": false,
+      "input_token_price": 1.4388,
+      "output_token_price": 5.4426,
+      "perf": {
+        "Intelligence": 63.85337894575418,
+        "Speed": 63.93332587830065,
+        "Coding quality": 76.02926529447055,
+        "Task adherence": 78.02419346741085,
+        "Factual reliability": 71.70010246595157
+      }
+    }
+  ]
+}
